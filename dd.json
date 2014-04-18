@@ -10,7 +10,7 @@
     "authScheme": "OPEN_ID_WITH_SSO",
 
     "dockItems": {
-        "TryMe": {
+        "SOT": {
             "label": "Speech Outlining Tool",
             "icon": "/img/dockItem.png",
             "supportsMobile": false,
@@ -19,6 +19,21 @@
                 "width": 800
             }
         }
-    }
+    },
 
+    "activities": {
+        "SOT": {
+            "displayName": "Speech Outlining Tool",
+            "description": "ZTest Activity - not editable once student starts",
+            "icon": "/img/dockItem.png",
+            "category": "assignment",
+            "placement": "DISTINCT",
+            "titleEditable":false,
+            "supportsMobile":true,
+            "add": {
+                "uri": "/",
+                "roles": ["SUPER_ADMIN","INSTRUCTOR","PRODUCTION","VENDOR","COURSECARE"]
+            }
+        }
+    }
 }
