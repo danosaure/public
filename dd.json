@@ -11,7 +11,7 @@
 
     "dockItems": {
         "TryMe": {
-            "label": "Try me label",
+            "label": "Speech Outlining Tool",
             "icon": "/img/dockItem.png",
             "supportsMobile": false,
             "action": {
