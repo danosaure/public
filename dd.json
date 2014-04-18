@@ -1,5 +1,4 @@
 {
-
     "name": "Cengage.Outline.Speech",
     "displayName": "Speech Outline Tool",
     "version": "0.1",
@@ -13,7 +12,7 @@
     "dockItems": {
         "TryMe": {
             "label": "Try me label",
-            "icon": "/getIcon.png",
+            "icon": "/img/dockItem.png",
             "supportsMobile": false,
             "action": {
                 "uri": "/lti/dockItem";
