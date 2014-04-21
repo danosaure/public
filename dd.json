@@ -4,7 +4,7 @@
     "version": "0.1",
     "creator": "Cengage Learning",
 
-    "rootURI": "http://10.168.48.136:8088",
+    "rootURI": "http://10.168.48.149:8088",
     "helpURI": "/help.html",
 
     "dockItems": {
@@ -29,7 +29,7 @@
             "titleEditable":false,
             "supportsMobile":true,
             "add": {
-                "uri": "/",
+                "uri": "/lti/addActivity",
                 "roles": ["SUPER_ADMIN","INSTRUCTOR","PRODUCTION","VENDOR","COURSECARE"]
             }
         }
