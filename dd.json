@@ -22,15 +22,15 @@
     "activities": {
         "SOT": {
             "displayName": "Speech Outlining Tool",
-            "description": "ZTest Activity - not editable once student starts",
+            "description": "Speech Outlining Tool - not editable once student starts",
             "icon": "/img/dockItem.png",
             "category": "assignment",
             "placement": "DISTINCT",
-            "titleEditable":false,
-            "supportsMobile":true,
+            "titleEditable": false,
+            "supportsMobile": true,
             "add": {
                 "uri": "/lti/addActivity",
-                "roles": ["SUPER_ADMIN","INSTRUCTOR","PRODUCTION","VENDOR","COURSECARE"]
+                "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE"]
             }
         }
     }
