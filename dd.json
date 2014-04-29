@@ -34,6 +34,9 @@
             "add": {
                 "uri": "/lti/addActivity",
                 "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE"]
+            },
+            "parameters": {
+                "outlineType": "speech"
             }
         }
     }
