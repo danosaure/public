@@ -15,7 +15,7 @@
             "action": {
                 "uri": "/lti/dockItem";
                 "width": 800
-            }
+            },
             "parameters": {
                 "outlineType": "speech"
             }
