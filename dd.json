@@ -14,7 +14,7 @@
             "supportsMobile": false,
             "action": {
                 "uri": "/lti/dockItem";
-                "width": "100%"
+                "width": 1024
             },
             "parameters": {
                 "outlineType": "speech"
