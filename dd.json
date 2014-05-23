@@ -13,7 +13,7 @@
             "icon": "/img/dockItem.png",
             "supportsMobile": false,
             "action": {
-                "uri": "/mindtap/lti/dockItem";
+                "uri": "/mindtap/lti/dockItem",
                 "width": 1024
             },
             "parameters": {
