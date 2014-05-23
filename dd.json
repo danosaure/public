@@ -32,12 +32,27 @@
             "titleEditable": false,
             "supportsMobile": true,
             "add": {
-                "uri": "/lti/addActivity",
+                "uri": "/mindtap/lti/addActivity",
                 "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE"]
             },
             "parameters": {
                 "outlineType": "speech"
             }
+        }
+    },
+
+    "lifecycle": {
+        "notification": {
+            "url": "/mindtap/lifecycle",
+            "subscriptionEvents": [
+                "APP_ADDED",
+                "APP_REMOVED",
+                "ACTIVITY_ADDED",
+                "ACTIVITY_CHANGED",
+                "COURSE_CHANGED",
+                "ACTIVITY_REMOVED",
+                "WORKING_COPY_COMMIT"
+            ]
         }
     }
 }
