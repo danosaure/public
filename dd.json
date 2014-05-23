@@ -1,7 +1,7 @@
 {
     "name": "Cengage.Outline.Speech",
     "displayName": "Speech Outline Tool",
-    "version": "0.4",
+    "version": "0.5",
     "creator": "Cengage Learning",
 
     "rootURI": "http://localhost:8088",
@@ -43,7 +43,7 @@
 
     "lifecycle": {
         "notification": {
-            "url": "http://localhost:8088/mindtap/lifecycle",
+            "uri": "http://localhost:8088/mindtap/lifecycle",
             "subscriptionEvents": [
                 "APP_ADDED",
                 "APP_REMOVED",
