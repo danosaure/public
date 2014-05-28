@@ -32,7 +32,7 @@
             "titleEditable": false,
             "supportsMobile": true,
             "add": {
-                "uri": "/mindtap/lti/addActivity",
+                "uri": "/mindtap/lti/addActivity?outlineType=speech",
                 "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE"]
             },
             "parameters": {
