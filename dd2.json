@@ -1,0 +1,43 @@
+{
+    "name": "Cengage.Outline.Speech",
+    "displayName": "Speech Outline Tool",
+    "version": "0.10",
+    "creator": "Cengage Learning",
+
+    "rootURI": "http://localhost:8088/sot/",
+    "helpURI": "help.html",
+
+    "dockItems": {
+        "SOT": {
+            "label": "Speech Outlining Tool",
+            "icon": "img/dockItem.png",
+            "supportsMobile": false,
+            "action": {
+                "uri": "mindtap/lti/dockItem",
+                "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE"]
+            },
+            "parameters": {
+                "outlineType": "speech"
+            }
+        }
+    },
+
+    "activities": {
+        "SOT": {
+            "displayName": "Speech Outlining Tool",
+            "description": "Speech Outlining Tool - not editable once student starts",
+            "icon": "img/dockItem.png",
+            "category": "assignment",
+            "placement": "DISTINCT",
+            "titleEditable": false,
+            "supportsMobile": true,
+            "add": {
+                "uri": "mindtap/lti/addActivity",
+                "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE"]
+            },
+            "parameters": {
+                "outlineType": "speech"
+            }
+        }
+    }
+}
