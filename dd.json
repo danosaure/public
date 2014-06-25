@@ -1,7 +1,7 @@
 {
     "name": "Cengage.Outline.Speech",
     "displayName": "Speech Outline Tool",
-    "version": "0.10",
+    "version": "0.12",
     "creator": "Cengage Learning",
 
     "rootURI": "http://localhost:8088/sot/",
