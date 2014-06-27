@@ -1,7 +1,7 @@
 {
     "name": "Cengage.Outline.Speech.htran",
     "displayName": "Speech Outline Tool",
-    "version": "0.13",
+    "version": "0.14",
     "creator": "Cengage Learning",
 
     "rootURI": "http://qae-ng.cengage.com/sot/",
