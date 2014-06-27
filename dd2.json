@@ -7,6 +7,10 @@
     "rootURI": "http://qae-ng.cengage.com/sot/",
     "helpURI": "help.html",
 
+    "features": {
+        "supportsTARole": true
+    }
+    
     "dockItems": {
         "SOT": {
             "label": "Speech Outlining Tool",
@@ -14,7 +18,7 @@
             "supportsMobile": false,
             "action": {
                 "uri": "mindtap/lti/dockItem",
-                "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE"]
+                "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE", "TEACHING_ASSISTANT"]
             },
             "parameters": {
                 "outlineType": "speech"
@@ -33,7 +37,7 @@
             "supportsMobile": true,
             "add": {
                 "uri": "mindtap/lti/addActivity",
-                "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE"]
+                "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE", "TEACHING_ASSISTANT"]
             },
             "parameters": {
                 "outlineType": "speech"
