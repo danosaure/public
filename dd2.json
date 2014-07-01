@@ -17,7 +17,7 @@
             "icon": "img/dockItem.png",
             "supportsMobile": false,
             "action": {
-                "uri": "lti-launch
+                "uri": "lti-launch",
                 "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE", "TEACHING_ASSISTANT"]
             },
             "parameters": {
@@ -35,7 +35,7 @@
             "titleEditable": false,
             "supportsMobile": true,
             "add": {
-                "uri": "lti-launch
+                "uri": "lti-launch",
                 "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE", "TEACHING_ASSISTANT"],
                 "parameter": {
                     "lis_result_sourcedid": "$lis_result_sourcedid",
