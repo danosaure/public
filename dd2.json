@@ -1,10 +1,10 @@
 {
     "name": "Cengage.Outline.Speech.htran",
     "displayName": "Speech Outline Tool",
-    "version": "0.18",
+    "version": "0.19",
     "creator": "Cengage Learning",
 
-    "rootURI": "http://localhost:8088/sot/",
+    "rootURI": "http://localhost:8088/sot",
     "helpURI": "help.html",
 
     "features": {
@@ -17,10 +17,11 @@
             "icon": "img/dockItem.png",
             "supportsMobile": false,
             "action": {
-                "uri": "lti-launch",
+                "uri": "/lti",
                 "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE", "TEACHING_ASSISTANT"]
             },
             "parameters": {
+                "i_am_in": "dockItems.SOT"
             }
         }
     },
@@ -35,15 +36,29 @@
             "titleEditable": false,
             "supportsMobile": true,
             "add": {
-                "uri": "lti-launch",
+                "uri": "/lti",
                 "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE", "TEACHING_ASSISTANT"],
                 "parameters": {
-                    "lis_result_sourcedid": "$lis_result_sourcedid",
-                    "lis_outcome_service_url": "$lis_outcome_service_url"
+                    "i_am_in": "activities.SOT.add"
                 }
             },
-            "parameters": {
-                "hello": "world"
+            "view": {
+                "uri": "/lti",
+                "parameters": {
+                    "i_am_in": "activities.SOT.view"
+                }
+            },
+            "configure": {
+                "uri": "/lti",
+                "parameters": {
+                    "i_am_in": "activities.SOT.configure"
+                }
+            },
+            "grade": {
+                "uri": "/lti",
+                "parameters": {
+                    "i_am_in": "activities.SOT.grade"
+                }
             }
         }
     }
