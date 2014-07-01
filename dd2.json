@@ -1,11 +1,11 @@
 {
     "name": "Cengage.Outline.Speech.htran",
     "displayName": "Speech Outline Tool",
-    "version": "0.20",
+    "version": "0.22",
     "creator": "Cengage Learning",
 
     "rootURI": "http://localhost:8088/sot",
-    "helpURI": "/help.html",
+    "helpURI": "/help",
 
     "features": {
         "supportsTARole": false
@@ -18,10 +18,17 @@
             "supportsMobile": false,
             "action": {
                 "uri": "/lti",
-                "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE", "TEACHING_ASSISTANT"]
+                "roles": [
+                    "SUPER_ADMIN",
+                    "INSTRUCTOR",
+                    "PRODUCTION",
+                    "VENDOR",
+                    "COURSECARE",
+                    "TEACHING_ASSISTANT"
+                ]
             },
             "parameters": {
-                "i_am_in": "dockItems.SOT"
+                "i_am_in": "dockItems"
             }
         }
     },
@@ -37,27 +44,34 @@
             "supportsMobile": true,
             "add": {
                 "uri": "/lti",
-                "roles": ["SUPER_ADMIN", "INSTRUCTOR", "PRODUCTION", "VENDOR", "COURSECARE", "TEACHING_ASSISTANT"],
+                "roles": [
+                    "SUPER_ADMIN",
+                    "INSTRUCTOR",
+                    "PRODUCTION",
+                    "VENDOR",
+                    "COURSECARE",
+                    "TEACHING_ASSISTANT"
+                ],
                 "parameters": {
-                    "i_am_in": "activities.SOT.add"
+                    "i_am_in": "activities.add"
                 }
             },
             "view": {
                 "uri": "/lti",
                 "parameters": {
-                    "i_am_in": "activities.SOT.view"
+                    "i_am_in": "activities.view"
                 }
             },
             "configure": {
                 "uri": "/lti",
                 "parameters": {
-                    "i_am_in": "activities.SOT.configure"
+                    "i_am_in": "activities.configure"
                 }
             },
             "grade": {
                 "uri": "/lti",
                 "parameters": {
-                    "i_am_in": "activities.SOT.grade"
+                    "i_am_in": "activities.grade"
                 }
             }
         }
