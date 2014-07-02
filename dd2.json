@@ -1,7 +1,7 @@
 {
     "name": "Cengage.Outline.Speech.htran",
     "displayName": "Speech Outline Tool",
-    "version": "0.22",
+    "version": "0.23",
     "creator": "Cengage Learning",
 
     "rootURI": "http://localhost:8088/sot",
@@ -59,7 +59,15 @@
             "view": {
                 "uri": "/lti",
                 "parameters": {
-                    "i_am_in": "activities.view"
+                    "i_am_in": "activities.view",
+                    "activity_title": "$mindtap.activity.title",
+                    "activity_description": "$mindtap.activity.description",
+                    "activity_pointspossible": "$mindtap.activity.pointspossible",
+                    "activity_start_date": "$mindtap.activity.startdate",
+                    "activity_end_date": "$mindtap.activity.enddate",
+                    "activity_user_override_end_date": "$mindtap.activity.useroverride.enddate",
+                    "lis_result_sourcedid": "$lis_result_sourcedid",
+                    "lis_outcome_service_url": "$lis_outcome_service_url"
                 }
             },
             "configure": {
